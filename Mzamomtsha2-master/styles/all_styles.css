@@ -1,0 +1,403 @@
+/* All */
+
+
+body{
+  background-color: #F0F4EF;
+  font-family: sans-serif;
+}
+
+
+
+/* nav bar */
+.top
+{
+    
+  display: flex ;
+   
+  justify-content: space-around;
+    
+  flex-flow: row ;
+    
+  background-color:  #0D1821; 
+
+}
+
+
+/* heading on nav */
+.heading
+{
+ color: aliceblue ;
+}
+
+
+.heading_top
+{
+    
+  padding-top: 7px;
+    
+  font-size: 1vw;
+    
+  text-align: center;
+
+}
+
+
+.heading_bottom
+{
+  
+  font-size: 2vw;
+    
+  text-align: center;
+
+}
+
+/* nav bar links */
+.links
+{
+  display: flex ;
+    
+  text-align: center;
+    
+  background-color: #0D1821;
+
+}
+
+
+.links a {
+  float: left;
+    
+  color: #F0F4EF;
+    
+  text-align: center;
+    
+  padding: 2vw;
+    
+  text-decoration: none;
+    
+  font-size: 1.5vw;
+
+}
+
+
+.links a:hover {
+
+  background-color: #ddd;
+    
+  color: black;
+
+}
+
+
+.links a.active {
+    
+  background-color: #4CAF50;
+    
+  color: white;
+
+}
+
+
+/* ---------------------------------------------------------------------- */
+/* -------------------------------------------------- */
+/* footer containing copyright and social media links */
+
+
+.bottom
+{
+    
+  display: flex;
+    
+  justify-content: space-around;
+    
+  vertical-align: baseline;
+    
+  text-align: center;
+    
+  height: 60px;
+
+}
+
+
+
+.copyright
+{
+    
+  padding: 10px;
+    
+  font-size: 0.9vw;
+
+}
+
+
+
+.socials
+{
+    
+  text-align: center ;
+    
+  padding: 10px;
+    
+  font-size: 0.9vw;
+
+}
+
+ 
+/* -------------------------------- */
+/* Spacer 2 on both home and events page */
+/* spacer */
+.space2 { padding: 25px; }
+/* ---------------------------------------------------------------------- */
+
+/* -------------------------------------------------- */
+/* Home Page Content */
+/* main image of school */
+.main {
+    display: flex;
+    justify-content: center;
+    background-color: #344966 ;
+    text-align: center;
+    height: 700px;
+}
+
+/* --------------------------------------------- */
+
+/* ----------------------------------------------------------- */
+/* About us page Content */
+
+
+.spacer
+{
+ padding: 10px;
+}
+
+
+
+
+.content {  
+  
+  display: flex;
+   
+  flex-wrap:wrap;
+
+}  
+
+
+/* About info */
+
+.about {
+  
+  flex: 70%;
+  
+  padding: 20px;
+  
+  text-align:center;
+  
+  background-color: F0F4EF;
+  
+  border-right: 1px solid black;
+
+}
+ 
+.about p{margin-top: 30px}
+
+/* FAQs */
+
+
+
+
+.faqs {
+  
+  flex: 30%;
+  
+  padding: 20px;
+  
+  background-color: F0F4EF;
+
+}
+
+
+
+.faqs > h2 {
+ text-align: center;
+}
+
+
+
+.q {
+ text-decoration: underline;
+}
+
+
+
+.img {
+ 
+  height: 150px;
+  
+  margin: 0 auto;
+
+}
+
+
+
+
+/* Contact form and info */
+.contact {
+  
+  background-color: F0F4EF;
+  
+  display: flex;
+  
+  border-top: 1px solid black;
+  
+  flex-wrap: wrap;
+
+}
+
+
+.form-area {
+  
+  flex: 50%;
+  
+  text-align: center;
+
+}
+
+
+
+.contact-info {
+   
+  flex: 50%;
+  
+  text-align: center;
+
+}
+
+
+
+.contact > h2 {
+ text-align: center;
+}
+
+
+
+input {
+ margin-bottom: 10px;
+}
+
+  
+
+
+/* -------------------------------------------------- */
+
+/* ----------------------------------------------------------------------------------- */
+/* Events page Content */
+section {
+  margin-left: -3px;
+  padding-top: 5em;
+  text-align: center;
+}
+.event-heading {
+  font-family: sans-serif;
+  color: #b4cded;
+  font-size: 3em;
+}
+
+/* Main container */
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* Image container, main image */
+.img1, .img2, .img3, .img4, .img5, .img6 {
+  width: 335px;
+  height: 254px;
+  margin: 2px;
+  background-size: cover;
+  overflow: hidden;
+}
+/* Event info */
+article {
+  height: 254px;
+  width: 335px;
+}
+article p {
+  font-size: 14px;
+  color: #344966;
+  color: #F0F4EF;
+  color: ghostwhite;
+}
+/* Button styling */
+#button {
+  display: block;
+  width: 100%;
+  background-color: rgba(51, 51, 51, 0.5);
+  box-shadow: inset 2.5px 2.5px 2px rgba(255, 255, 255, 0.5), inset -2.5px -2.5px 4px rgba(0, 0, 0, 0.4), -0.3px -0.3px 4px rgba(0, 0, 0, 0.5), 2px 2px 10px rgba(0, 0, 0, 0.6); /* Adds depth */
+  font-size: 40px;
+  color: #B4CDED;
+  border: 0;
+  cursor: pointer;
+}
+
+
+/* Images */
+/* img 1 */
+      .img1 {background-image: url("../images/event/computer.jpg"); }
+/* img 2 */
+      .img2 {background-image: url("../images/event/library.jpg"); }
+/* img 3 */
+      .img3 {background-image: url("../images/event/parent.jpg"); }
+/* img 4 */
+      .img4 {background-image: url("../images/event/sponsored.jpg"); }
+/* img 5 */
+      .img5 {background-image: url("../images/event/tablet.jpg"); }
+/* img 6 */
+      .img6 {background-image: url("../images/locations/Oewerzicht.jpg"); }
+
+/* Images behind text */
+/* img text 1 */
+          .box1::before { background-image: url("../images/event/computer.jpg"); }
+/* img text 2 */
+          .box2::before { background-image: url("../images/event/library.jpg"); }
+/* img text 3 */
+          .box3::before { background-image: url("../images/event/parent.jpg"); }
+/* img text 4 */
+          .box4::before { background-image: url("../images/event/sponsored.jpg"); }
+/* img text 5 */
+          .box5::before { background-image: url("../images/event/tablet.jpg"); }
+/* img text 6 */
+          .box6::before { background-image: url("../images/locations/Oewerzicht.jpg"); }
+
+
+.box1, .box2, .box3, .box4, .box5, .box6 {
+  margin-top: -20px;
+  position: relative;
+  background-color: #B4CDED;
+  transition: transform 0.5s ease-out;
+}
+
+/* Text background */
+.box1::before, .box2::before, .box3::before, .box4::before, .box5::before, .box6::before {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  opacity: 0.5; /* Enables semi-transparent effect */
+  z-index: -1;
+  display: block;
+  position: absolute;
+  content: '  ';
+  transition: transform 0.5s ease-out;
+}
+
+
+/* Different positions of article text */
+.box1.down, .box2.down, .box3.down, .box4.down, .box5.down, .box6.down {transform: translateY(100%) translateY(-45px) translateZ(0);}
+
+.box1.down::before, .box2.down::before, .box3.down::before, .box4.down::before, .box5.down::before, .box6.down::before {transform: translateY(-100%) translateY(45px) translateZ(0);}
+
+.box1.up, .box2.up, .box3.up, .box4.up, .box5.up, .box6.up {transform: translateY(0) translateZ(0);}
+
+.box1.up::before, .box2.up::before, .box3.up::before, .box4.up::before, .box5.up::before, .box6.up::before {transform: translateY(0) translateZ(0);}
+
+/*-----------------------------------------------------------------------------------------------------------------------*/

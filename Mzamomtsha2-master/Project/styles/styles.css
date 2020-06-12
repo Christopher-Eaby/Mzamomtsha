@@ -1,0 +1,270 @@
+body {
+    background-color: #F0F4EF;
+    padding-bottom: 60px ;
+    font-family: sans-serif;
+}
+/* ---------------------------------------------------------------------- */
+/* nav bar */
+header {
+    display: flex ;
+    justify-content: space-around;
+    flex-flow: row ;
+    background-color:  #0D1821;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+/*-------------------------------------*/
+/* Heading */
+.heading {
+    color: aliceblue ;
+    text-align: center;
+    width: 35%;
+}
+h1 {
+  display: flex;
+  flex-direction: column;
+}
+.one {
+  font-size: 10px;
+}
+.two {
+  font-size: 20px;
+}
+/*-------------------------------------*/
+/* Logo */
+#logo {
+  display: none;
+}
+#logo2 {
+  width: 25%;
+}
+.logo-small {
+  height: 100%;
+  width: 100%;
+}
+.logo-big {
+  border-radius: 50%;
+  width: 200px;
+  height: 180px;
+  background-color: #f0f4ef;
+  left: 0px;
+  padding: 10px;
+  position: absolute;
+}
+.logo-big:hover {
+  background-color: white;
+  cursor: pointer;
+}
+/* nav bar */
+.links {
+    display: none;
+    padding: 15px;
+}
+
+.link {
+    color: #F0F4EF;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+
+.links a:hover {
+    background-color: #ddd;
+    color: black;
+}
+/* Icons */
+.icons {
+    display: flex;
+    align-items: center;
+    width: 25%;
+}
+.icon {
+    padding: 5px;
+    background-color: #0D1821;
+}
+.icon:hover {
+    background-color: #ddd;
+}
+/* ---------------------------------------------------------------------- */
+/* spacer */
+.space1 { padding: 30px; }
+/* ---------------------------------------------------------------------- */
+/* main image of school */
+.main {
+    background-color: #344966 ;
+    text-align: center;
+}
+/* ---------------------------------------------------------------------- */
+/* spacer */
+.space2 { padding: 25px; }
+/* ---------------------------------------------------------------------- */
+/* footer containing copyright and social media links */
+.bottom {
+    display: flex;
+    justify-content: space-around;
+    vertical-align: baseline;
+    text-align: center;
+    height: 60px;
+}
+
+.copyright {
+    padding: 10px;
+    font-size: 0.5vw;
+}
+
+.socials {
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5vw;
+}
+/* ---------------------------------------------------------------------- */
+/* Desktop view */
+@media screen and (min-width: 600px) {
+
+  /* Logo */
+  #logo {
+    display: block;
+  }
+  #logo2 {
+    display: none;
+  }
+   /* Heading */
+   .heading {
+      width: auto;
+   }
+   .two {
+     font-size: 1em;
+   }
+   /* Links */
+  .links {
+    display: flex;
+  }
+  .link {
+
+  }
+  .icons {
+    display: none;
+  }
+  .icon {
+
+  }
+
+  .space1 { padding: 60px; }
+
+
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* Events */
+section {
+  margin-left: -3px;
+  padding-top: 5em;
+  text-align: center;
+}
+h2 {
+  font-family: "Monoton", cursive;
+  color: #aba104;
+  color: #F0F4EF;
+  color: #b4cded;
+  font-size: 3em;
+}
+/* Main container */
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* Image container, main image */
+.img1, .img2, .img3, .img4, .img5, .img6 {
+  width: 335px;
+  height: 254px;
+  margin: 2px;
+  background-size: cover;
+  overflow: hidden;
+}
+/* Event content */
+article {
+  height: 254px;
+  width: 335px;
+}
+article p {
+  font-size: 14px;
+  color: #344966;
+  color: #F0F4EF;
+  color: ghostwhite;
+}
+/* Button styling */
+#button {
+  display: block;
+  width: 100%;
+  background-color: rgba(51, 51, 51, 0.5);
+  box-shadow: inset 2.5px 2.5px 2px rgba(255, 255, 255, 0.5), inset -2.5px -2.5px 4px rgba(0, 0, 0, 0.4), -0.3px -0.3px 4px rgba(0, 0, 0, 0.5), 2px 2px 10px rgba(0, 0, 0, 0.6); /* Adds depth */
+  font-size: 40px;
+  color: #B4CDED;
+  border: 0;
+  cursor: pointer;
+}
+
+
+/* Images */
+/* img 1 */
+      .img1 {background-image: url("../images/locations/Grootvadersbos-Camping.jpg"); }
+/* img 2 */
+      .img2 {background-image: url("../images/locations/River-Goose-Camping.jpg"); }
+/* img 3 */
+      .img3 {background-image: url("../images/locations/Oewerzicht.jpg"); }
+/* img 4 */
+      .img4 {background-image: url("../images/locations/Grootvadersbos-Camping.jpg"); }
+/* img 5 */
+      .img5 {background-image: url("../images/locations/River-Goose-Camping.jpg"); }
+/* img 6 */
+      .img6 {background-image: url("../images/locations/Oewerzicht.jpg"); }
+
+/* Images behind text */
+/* img text 1 */
+          .box1::before { background-image: url("../images/locations/Grootvadersbos-Camping.jpg"); }
+/* img text 2 */
+          .box2::before { background-image: url("../images/locations/River-Goose-Camping.jpg"); }
+/* img text 3 */
+          .box3::before { background-image: url("../images/locations/Oewerzicht.jpg"); }
+/* img text 4 */
+          .box4::before { background-image: url("../images/locations/Grootvadersbos-Camping.jpg"); }
+/* img text 5 */
+          .box5::before { background-image: url("../images/locations/River-Goose-Camping.jpg"); }
+/* img text 6 */
+          .box6::before { background-image: url("../images/locations/Oewerzicht.jpg"); }
+
+
+.box1, .box2, .box3, .box4, .box5, .box6 {
+  margin-top: -20px;
+  position: relative;
+  background-color: #B4CDED;
+  transition: transform 0.5s ease-out;
+}
+
+/* Text background */
+.box1::before, .box2::before, .box3::before, .box4::before, .box5::before, .box6::before {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  opacity: 0.5; /* Enables semi-transparent effect */
+  z-index: -1;
+  display: block;
+  position: absolute;
+  content: '  ';
+  transition: transform 0.5s ease-out;
+}
+
+
+/* Different positions of article text */
+.box1.down, .box2.down, .box3.down, .box4.down, .box5.down, .box6.down {transform: translateY(100%) translateY(-45px) translateZ(0);}
+
+.box1.down::before, .box2.down::before, .box3.down::before, .box4.down::before, .box5.down::before, .box6.down::before {transform: translateY(-100%) translateY(45px) translateZ(0);}
+
+.box1.up, .box2.up, .box3.up, .box4.up, .box5.up, .box6.up {transform: translateY(0) translateZ(0);}
+
+.box1.up::before, .box2.up::before, .box3.up::before, .box4.up::before, .box5.up::before, .box6.up::before {transform: translateY(0) translateZ(0);}
+
+/*-----------------------------------------------------------------------------------------------------------------------*/

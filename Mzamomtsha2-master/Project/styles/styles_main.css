@@ -1,0 +1,96 @@
+body 
+{
+    background-color: #F0F4EF;
+    padding-bottom: 60px ;
+    font-family: sans-serif;
+}
+/* nav bar */
+.top
+{
+    display: flex ;
+    justify-content: space-around;
+    flex-flow: row ;
+    background-color:  #0D1821; 
+}
+
+.heading
+{
+    color: aliceblue ;
+}
+
+.heading_top
+{
+    padding-top: 7px;
+    font-size: 1vw;
+    text-align: center;
+}
+
+.heading_bottom
+{
+    font-size: 2vw;
+    text-align: center;
+}
+/* nav bar */
+.links
+{
+    display: flex ;
+    text-align: center;
+    background-color: #0D1821;
+}
+
+.links a {
+    float: left;
+    color: #F0F4EF;
+    text-align: center;
+    padding: 2vw;
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+
+.links a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.links a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+/* spacer */
+.space1
+{
+    padding: 15px;
+}
+/* main image of school */
+.main
+{
+    background-color: #344966 ;
+    text-align: center;
+}
+/* spacer */
+.space2
+{
+    padding: 25px;
+}
+/* footer containing copyright and social media links */
+.bottom
+{
+    display: flex;
+    justify-content: space-around;
+    vertical-align: baseline;
+    text-align: center;
+    height: 60px;
+}
+
+.copyright
+{
+    padding: 10px;
+    font-size: 0.9vw;
+}
+
+.socials
+{
+    text-align: center ;
+    padding: 10px;
+    font-size: 0.9vw;
+}
